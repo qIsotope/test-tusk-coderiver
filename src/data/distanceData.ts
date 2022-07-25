@@ -1,0 +1,1 @@
+export const distanceData = ['high', 'low', 'normal']

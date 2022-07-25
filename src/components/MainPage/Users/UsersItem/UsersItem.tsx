@@ -5,6 +5,9 @@ import { ItemContacts } from './ItemContacts/ItemContacts'
 import { ItemDistance } from './ItemDistance/ItemDistance'
 import useFetching from '../../../../hooks/useFetching'
 import { IUserPhoto } from '../../../../types/userPhotosTypes'
+import { distanceData } from '../../../../data/distanceData'
+import { getRandomNumber } from '../../../../utils/getRandomNumber'
+
 
 
 interface IUsersItem {
@@ -28,7 +31,7 @@ export const UsersItem = (props: IUsersItem) => {
 			<ItemUser name={props.name} adress={props.adress} photo={data?.avatar} error={error} id={props.id} />
 			<ItemCompany company={props.company} companySpeciality={props.companySpeciality} />
 			<ItemContacts email={props.email} site={props.site} />
-			<ItemDistance />
+			<ItemDistance button={distanceData[getRandomNumber(0, 2)]} />
 		</div>
 	)
 
