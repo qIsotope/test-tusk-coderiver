@@ -1,0 +1,18 @@
+.footer__rightCreate{
+	padding:20px 32px 19px 32px ;
+	color: #C5C7CD;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__createIcon{
+	font-size: 15px;
+	cursor: pointer;
+	transition: all 0.3s linear;
+
+	&:hover{
+		color: #94979e;
+		
+	}
+}

@@ -1,0 +1,33 @@
+.item__userDistance{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex: 0 1 10.04%;
+}
+
+.user__distanceValue{
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 14px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;	
+	color: var(--color-white);
+	padding: 5px 12px;
+	background: #F12B2C;
+	border-radius: 100px;
+}
+.item__userButton{
+
+	position: absolute;
+	right: 22px;
+	top: 34px;
+	font-size: 16px;
+	color: #C5C7CD;
+	transition: all 0.3s linear;
+	cursor: pointer;
+
+	&:hover{	
+		color: #94979e;
+	}
+}

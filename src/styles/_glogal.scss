@@ -1,0 +1,22 @@
+body {
+	font-family: "Mulish";
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: var(--color-dark);
+	font-style: normal;
+}
+
+.App {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper{
+	display: flex;
+}
+.main{
+	width: 100%;
+}

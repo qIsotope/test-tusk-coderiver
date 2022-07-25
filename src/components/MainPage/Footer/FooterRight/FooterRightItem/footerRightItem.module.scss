@@ -1,0 +1,78 @@
+.footer__RightItem{
+	padding: 17px 32px 17px 32px;
+		display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #DFE0EB;
+	&:last-child{
+		border-bottom: none;
+	}
+}
+
+.footer__wrapper{
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	cursor: pointer;
+}
+
+.footer__checkbox{
+	border: 2px solid #C5C7CD;
+	height:20px;
+	width: 20px;
+	border-radius: 50%;
+	& svg{
+		display: none;
+	}
+}
+
+.footer__checkboxActive{
+	background: #3751FF;
+	border: none;
+	position: relative;
+
+	& svg{
+		display: block;
+		position: absolute;
+		top: 4px;
+		left: 4px;
+		font-size: 12px;
+		color: var(--color-white);
+		font-weight: 700;
+	}
+}
+
+
+.footer__RightItemTitle{
+	color: var(--color-dark);
+	transition: all 0.3s linear;
+
+	&:hover{
+		color: var(--color-hover-text)
+	}
+}
+
+.footer__RightItemValue{
+	padding: 5px 12px;
+	font-size: 11px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: var(--color-white);
+	font-weight: 700;
+	border-radius: 8px;
+	background: #FEC400;
+}
+
+.footer__buttonGreen{
+	background: #29CC97;
+}
+
+.footer__buttonWhite{
+	background: #F0F1F7;
+	color: #9FA2B4;
+	
+}

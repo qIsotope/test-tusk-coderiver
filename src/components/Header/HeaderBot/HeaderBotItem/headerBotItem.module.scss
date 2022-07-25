@@ -1,0 +1,35 @@
+.header__botItem{
+	flex: 0 1 25%;
+	background: var(--color-white);
+	border: 1px solid #DFE0EB;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.header__itemActive{
+	border: 1px solid #3751FF;
+}
+.header__itemActive div{
+	color: #3751FF;
+}
+
+.item__title{
+	margin-top: 24px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.4px;
+	color: var(--color-light-gray);
+	margin-bottom: 12px;
+}
+.item__digit{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: var(--color-dark);
+	margin-bottom: 24px;
+}

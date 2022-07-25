@@ -1,0 +1,18 @@
+.left__item{
+	padding: 20px 32px 18px 32px;
+	border-bottom: 1px solid #DFE0EB;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	&:last-child{
+		border-bottom: none;
+	}
+}
+
+.left__itemCaption{
+	color: var(--color-dark);
+}
+
+.left__itemValue{
+	color: #9FA2B4;
+}

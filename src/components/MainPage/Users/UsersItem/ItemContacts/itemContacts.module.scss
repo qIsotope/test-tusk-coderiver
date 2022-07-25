@@ -1,0 +1,19 @@
+.item__userEmail{
+	flex: 0 1 13.51%;
+	max-width: 13.51%
+}
+
+.user__infoTitle{
+	margin-bottom: 4px;
+	color: var(--color-dark);
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.user__infoSubtitle{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.1px;
+	color: #C5C7CD;
+}

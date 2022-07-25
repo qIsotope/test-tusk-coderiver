@@ -1,0 +1,44 @@
+.sidebar__item{
+	padding: 18px 0 18px 33px;
+	display: flex;
+	align-items: center;
+	gap: 23px;
+	font-size: 16px;
+	letter-spacing: 0.2px;
+	color: var(--color-text-gray);
+	line-height: 20px;
+	cursor: pointer;
+	position: relative;
+	transition: all 0.3 linear;
+}
+.sidebar__itemIcon, .sidebar__itemLabel{
+	color: inherit;
+	cursor: pointer;
+}
+
+.sidebar__itemIcon{
+	padding-top: 5px;
+}
+
+.item__settings{
+	margin-top: 32px;
+
+	&::before{
+		content: "";
+		display: block;
+		position: absolute;
+		top: -16px;
+		left: 0;
+		height: 1px;
+		width: 100%;
+		background-color:rgba(223, 224, 235, 0.06);
+		z-index: 2;
+	}
+}
+
+
+.item__active{
+	background: rgba(159, 162, 180, 0.08);
+	color: var(--color-white);
+	border-left: 3px solid #DDE2FF;
+}

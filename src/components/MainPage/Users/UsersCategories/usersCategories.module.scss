@@ -1,0 +1,27 @@
+.users__contentCategories{
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	font-weight: 700;
+	color: var(--color-light-gray);
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	margin-bottom: 12px;
+	padding-left: 32px;
+}
+
+.categories__itemDetails{
+	flex: 0 1 40.06%;
+}
+.categories__itemCompany{
+	flex: 0 1 20.08%;
+}
+.categories__itemEmail{
+	flex: 0 1 13.51%;
+}
+
+.categories__itemDistance{
+	flex: 0 1 10.04%;
+}
+

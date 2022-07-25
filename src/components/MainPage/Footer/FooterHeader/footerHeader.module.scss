@@ -1,0 +1,24 @@
+.footer__header{
+	padding:32px 32px 0 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__title{
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	color: var(--color-dark);
+	margin-bottom: 8px;
+}
+
+.left__button{
+	color: #3751FF;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	&:hover{
+		color: rgb(15, 33, 153);
+	}
+}
